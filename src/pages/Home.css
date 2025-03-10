@@ -1,0 +1,37 @@
+/* Contenedor principal */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f0f2f5;
+  }
+
+  /* Contenedor de los recuadros */
+  .recuadros-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Estilos base de los recuadros */
+  .recuadro {
+    background-color: #1b1a1a;
+    border-radius: 15px;
+    color: #f0f2f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  /* Efecto hover para los recuadros */
+  .recuadro:hover {
+    border: 3px solid rgb(114, 110, 110);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
