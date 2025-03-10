@@ -66,7 +66,8 @@ streaming-demo-app/
 ├── tsconfig.json           # Configuración de TypeScript
 └── vite.config.ts          # Configuración de Vite
 ```
-###Dependencias principales
+
+### Dependencias principales
 React: Biblioteca para construir interfaces de usuario.
 
 Vite: Herramienta de construcción rápida para proyectos modernos.
@@ -82,15 +83,15 @@ Axios: Cliente HTTP para realizar peticiones a la API.
 ### Contribuir
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
-Haz un fork del repositorio.
+1. Haz un fork del repositorio.
 
-Crea una rama con tu nueva funcionalidad (git checkout -b feature/nueva-funcionalidad).
+2. Crea una rama con tu nueva funcionalidad (git checkout -b feature/nueva-funcionalidad).
 
-Realiza tus cambios y haz commit (git commit -m 'Agrega nueva funcionalidad').
+3. Realiza tus cambios y haz commit (git commit -m 'Agrega nueva funcionalidad').
 
-Sube tus cambios a GitHub (git push origin feature/nueva-funcionalidad).
+4. Sube tus cambios a GitHub (git push origin feature/nueva-funcionalidad).
 
-Abre un Pull Request en GitHub.
+5. Abre un Pull Request en GitHub.
 
 ### Licencia
 Este proyecto está bajo la licencia MIT.
